@@ -25,7 +25,7 @@ defmodule EctoGenErrorReproduce.Umbrella.MixProject do
   # and cannot be accessed from applications inside the apps/ folder.
   defp deps do
     [
-      {:ecto_gen, "~> 0.8.3", runtime: false, only: :dev}
+
     ]
   end
 
