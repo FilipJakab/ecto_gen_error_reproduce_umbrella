@@ -16,3 +16,7 @@
 >   2. You are configuring an application that does not really exist.
 > 
 > Please ensure :ecto_gen exists or remove the configuration.
+
+## EDIT:
+The origin of this problem was found:
+The dependecy of `ecto_gen` was added to the root `mix.exs` instead of one of the apps' `mix.exs`
